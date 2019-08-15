@@ -14,7 +14,7 @@
         <input type="text" class="form-control" id="fileName" aria-describedby="fileName" placeholder="Enter file Name">       
       </div>
       <button type="button" class="btn btn-primary retrieve">Submit</button> 
-    <table id="example" class="table table-bordered table-striped table-condensed" cellspacing="0" width="100%"></table> 
+    <table id="example" class="table table-bordered table-striped table-condensed"></table> 
   </div>
 </html>
 <script>
