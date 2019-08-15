@@ -47,7 +47,7 @@ $(document).ready(function() {
                 } else {
                     $('#example').DataTable({
                         data: dataSet,
-                        responsive; true,
+                        "responsive"; true,
                         "columns": my_columns
                     });
                 }
