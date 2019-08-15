@@ -9,16 +9,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <div class="container">
-  <div class='row'>
-  <form>
       <div class="form-group">
         <label for="fileName">File Name</label>
         <input type="text" class="form-control" id="fileName" aria-describedby="fileName" placeholder="Enter file Name">       
       </div>
-      <button type="button" class="btn btn-primary retrieve">Submit</button>
-    </form>
-    <table id="example" class="table table-bordered table-striped table-condensed" cellspacing="0" width="100%"></table>
-  </div>   
+      <button type="button" class="btn btn-primary retrieve">Submit</button> 
+    <table id="example" class="table table-bordered table-striped table-condensed" cellspacing="0" width="100%"></table> 
   </div>
 </html>
 <script>
@@ -49,7 +45,7 @@ $(document).ready(function() {
                 } else {
                     $('#example').DataTable({
                         data: dataSet,
-                        "responsive"; true,
+                        responsive: true,
                         "columns": my_columns
                     });
                 }
