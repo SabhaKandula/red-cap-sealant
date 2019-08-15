@@ -16,7 +16,7 @@
       </div>
       <button type="button" class="btn btn-primary retrieve">Submit</button>
     </form>
-    <table id="example" class="display" cellspacing="0" width="100%"></table>
+    <table id="example" class="table table-bordered display table-striped table-condensed" cellspacing="0" width="100%"></table>
   </div>
 </html>
 <script>
@@ -47,6 +47,7 @@ $(document).ready(function() {
                 } else {
                     $('#example').DataTable({
                         data: dataSet,
+                        responsive; true,
                         "columns": my_columns
                     });
                 }
